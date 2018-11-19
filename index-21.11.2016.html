@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+        <title>MyVodafone Mobile Application</title>
+
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                outline: none;
+                vertical-align: baseline;
+                box-sizing: border-box;
+            }
+
+            body {
+                -webkit-touch-callout: none;
+                -webkit-text-size-adjust: none;
+                -webkit-user-select: none;
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-weight: 100;
+                font-size: 15px;
+                line-height: 125%;
+            }
+
+            h1,
+            h2 {
+                font-weight: 100;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+            .container {
+              width: 320px;
+              margin: 0 auto;
+            }
+            .item {
+                width: 320px;
+                float: left;
+                padding-right: 25px;
+            }
+
+            .title {
+                text-align: center;
+            }
+            .title img {
+              width: 50px;
+              height: auto;
+            }
+            .table {
+                width: 300px;
+                padding: 6px;
+                margin: 4px;
+                border: .5px solid #b1b1b1;
+                border-radius: 6px;
+            }
+
+            .table .row {
+                border-bottom: .5px solid #b1b1b1;
+            }
+
+            .table .row::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            .table .row:last-child {
+                border: none;
+            }
+
+            .table .col {
+                float: left;
+                width: 90px;
+                min-height: 40px;
+                padding: 0 4px;
+                border-right: .5px solid #b1b1b1;
+                line-height: 40px;
+                text-align: center;
+            }
+
+            .table .col:last-child {
+                border-right: none;
+            }
+
+            .install {
+                padding: 8px 24px;
+                background: #343434;
+                border-radius: 6px;
+                color: white;
+                text-decoration: none;
+            }
+
+            .install:hover {
+                background: #9c9c9c;
+            }
+
+            .clear-fix {
+              clear:both;
+            }
+        </style>
+
+    </head>
+    <body>
+<div class="container">
+  <div class="item">
+    <div class="title">
+        <h1>My Vodafone</h1>
+        <p>Mobile Application for iOS</p>
+        <img src="apple-logo.png" alt="">
+    </div>
+
+    <br>
+
+    <h2 class="title">Sprint 3</h2>
+    <div class="table">
+        <div class="row">
+            <div class="col">DEV</div>
+            <div class="col">17.11.2016</div>
+            <div class="col"><a class="install" href="itms-services://?action=download-manifest&amp;url=https://areontest.github.io/testApps/builds/sprint3/ios/DEV/MyVodafone.plist">Install</a></div>
+        </div>
+        <div class="row">
+            <div class="col">TEST</div>
+            <div class="col">16.11.2016</div>
+            <div class="col"><a class="install" href="itms-services://?action=download-manifest&amp;url=https://areontest.github.io/testApps/builds/sprint3/ios/TEST/MyVodafone.plist">Install</a></div>
+        </div>
+        <div class="row">
+            <div class="col">MOCK</div>
+            <div class="col">09.11.2016</div>
+            <div class="col"><a class="install" href="itms-services://?action=download-manifest&amp;url=https://areontest.github.io/testApps/builds/sprint3/ios/MOCK/MyVodafone.plist">Install</a></div>
+        </div>
+    </div>
+
+    <br>
+
+    <h2 class="title">Sprint 2</h2>
+    <div class="table">
+        <div class="row">
+            <div class="col">DEV</div>
+            <div class="col">28.10.2016</div>
+            <div class="col"><a class="install" href="itms-services://?action=download-manifest&amp;url=https://areontest.github.io/testApps/builds/sprint2/ios/DEV/MyVodafone.plist">Install</a></div>
+        </div>
+        <div class="row">
+            <div class="col">PROD</div>
+            <div class="col">28.10.2016</div>
+            <div class="col"><a class="install" href="itms-services://?action=download-manifest&amp;url=https://areontest.github.io/testApps/builds/sprint2/ios/PROD/MyVodafone.plist">Install</a></div>
+        </div>
+        <div class="row">
+            <div class="col">TEST</div>
+            <div class="col">28.10.2016</div>
+            <div class="col"><a class="install" href="itms-services://?action=download-manifest&amp;url=https://areontest.github.io/testApps/builds/sprint2/ios/TEST/MyVodafone.plist">Install</a></div>
+        </div>
+    </div>
+  </div>
+
+    <div class="item">
+    <div class="title">
+        <h1>My Vodafone</h1>
+        <p>Mobile Application for Android</p>
+        <img src="android-logo.png" alt="">
+    </div>
+
+    <br>
+
+    <h2 class="title">Sprint 3</h2>
+    <div class="table">
+        <div class="row">
+            <div class="col">DEV</div>
+            <div class="col">16.11.2016</div>
+            <div class="col"><a class="install" href="/testApps/builds/sprint3/android/DEV/MyVodafone.apk">Install</a></div>
+        </div>
+        <div class="row">
+            <div class="col">TEST</div>
+            <div class="col">16.11.2016</div>
+            <div class="col"><a class="install" href="/testApps/builds/sprint3/android/TEST/MyVodafone.apk">Install</a></div>
+        </div>
+        <div class="row">
+            <div class="col">MOCKS</div>
+            <div class="col">17.11.2016</div>
+            <div class="col"><a class="install" href="/testApps/builds/sprint3/android/MOCKS/MyVodafone.apk">Install</a></div>
+        </div>
+        <div class="row">
+            <div class="col">PROD (179 http)</div>
+            <div class="col">21.11.2016</div>
+            <div class="col"><a class="install" href="/testApps/builds/sprint3/android/PROD-179/MyVodafone.apk">Install</a></div>
+        </div>
+        <!-- <div class="row">
+            <div class="col">PROD (180 https)</div>
+            <div class="col">11.11.2016</div>
+            <div class="col"><a class="install" href="/testApps/builds/sprint3/android/PROD/MyVodafoneP_https_180_11_11_2016.apk">Install</a></div>
+        </div> -->
+        <div class="row">
+            <div class="col">PROD F5</div>
+            <div class="col">21.11.2016</div>
+            <div class="col"><a class="install" href="/testApps/builds/sprint3/android/F5/MyVodafone.apk">Install</a></div>
+        </div>
+    </div>
+
+    <br>
+
+    <h2 class="title">Sprint 2</h2>
+    <div class="table">
+        <div class="row">
+            <div class="col">PROD (180 http)</div>
+            <div class="col">11.11.2016</div>
+            <div class="col"><a class="install" href="/testApps/builds/sprint2/android/PROD/MyVodafoneProd_180_http_11_11_2016.apk">Install</a></div>
+        </div>
+    </div>
+  </div>
+<div class="clear-fix"></div>
+</div>
+    </body>
+</html>
